@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Open Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5e6e82;
+    text-align: left;
+    background-color: #edf2f9;
+}
+
+.TextH6 {
+    font-size: .83333rem;
+	margin-top: .5rem!important;
+	margin-bottom: 0!important;
+}
+
+.text-right {
+    text-align: right;
+}
+.TextH6 .alignItemsCenter{
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.green {
+    color: green;
+}
+.bg-red{
+	background-color:red;
+}
+.bg-light {
+    background-color: #f9fafd!important;
+}
+.custom-select{
+	display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .625rem + 2px);
+    padding: .3125rem 2rem .3125rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #344050;
+    vertical-align: middle;
+    background: #FFC url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%234d5969' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e) right 1rem center/8px 10px no-repeat;
+    border: 1px solid #d8e2ef;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+
+
+
+/*          ----------------         منوی کشویی       ------------ */
+.proboxtitle, .proboxcontent, .proboxmain{
+    position:relative;
+}
+.proboxtitle{
+    width:230px;    
+    height:25px;
+    overflow:hidden;
+    display:block;
+    cursor:pointer;
+    background-color: #edf2f9;
+    direction:rtl;
+    padding:4px;
+    text-align:left;
+	color:black;
+}
+.proboxcontent{
+    width:230px;    
+    height:auto;
+    overflow:hidden;
+    display:none;
+    background-color: #edf2f9;
+    padding:4px;
+    direction:rtl;
+	color:black;
+}
+.proboxmain{
+    border:1px solid #F0F0F0;
+    width:208px;    
+}
+/*          ----------------         منوی کشویی اتمام      ------------ */
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.toggle-icon-wrapper {
+    margin-left: -.75rem;
+    padding-left: .125rem;
+    margin-right: 1.25rem;
+}

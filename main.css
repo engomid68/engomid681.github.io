@@ -1,0 +1,86 @@
+
+
+.container {
+    width: 100%;
+    max-width: 1480px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    width: 240px;
+    top: 0;
+    height: 100vh;
+    display: block;
+    background-color: #edf2f9;
+}
+
+.content {
+    width: calc(100% - 240px);
+    height: 100%;
+    margin-left: 240px;
+}
+
+.container .content .search-box {
+    padding: 10px;
+}
+
+.container .content .search-box .search-input {
+    padding-left: 2rem;
+    line-height: 1.7;
+    border-radius: 50rem;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    display: block;
+    width: 300px;
+    height: calc(1.5em + .625rem + 2px);
+    padding: .3125rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #344050;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8e2ef;
+    border-radius: .25rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.container .content .search-box .search-input:focus {
+    color: #344050;
+    background-color: #fff;
+    border-color: #9ec2f3;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(44 123 229 / 25%);
+    box-shadow: 0 0 0 0.2rem rgb(44 123 229 / 25%);
+}
+
+@media (min-width: 1540px) {
+    .container {
+        max-width: 1480px;
+    }
+}
+
+.section1 .card {
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.col-auto .Select-Input:focus {
+    color: #344050;
+    background-color: #fff;
+    border-color: #9ec2f3;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgb(44 123 229 / 25%);
+    box-shadow: 0 0 0 0.2rem rgb(44 123 229 / 25%);
+}
