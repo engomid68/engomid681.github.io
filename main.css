@@ -18,7 +18,13 @@
     display: block;
     background-color: #edf2f9;
 }
-
+.nav-top{
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+	z-index:1020;
+	background-color: #edf2f9;
+}
 .content {
     width: calc(100% - 240px);
     height: 100%;
@@ -36,7 +42,6 @@
     -webkit-box-shadow: none;
     box-shadow: none;
 
-    display: block;
     width: 300px;
     height: calc(1.5em + .625rem + 2px);
     padding: .3125rem 1rem;
